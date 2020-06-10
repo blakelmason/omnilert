@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "git": "git add . && git commit -m \"commit\" && git push origin master"
+    "git": "git add . && git commit -m \"commit\" && git push origin master",
+    "watch": "hs watch vonazon vonazon --remove"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/blakelmason/omnilert/issues"
   },
-  "homepage": "https://github.com/blakelmason/omnilert#readme"
+  "homepage": "https://github.com/blakelmason/omnilert#readme",
+  "dependencies": {
+    "chokidar": "^3.4.0"
+  }
 }
